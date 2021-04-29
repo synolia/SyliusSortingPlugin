@@ -21,7 +21,7 @@ matrix:
         -
             php: 7.3
             env:
-                - SYLIUS_VERSION="~1.8"
+                - SYLIUS_VERSION="^1.8"
 
 before_install:
     - phpenv config-rm xdebug.ini
